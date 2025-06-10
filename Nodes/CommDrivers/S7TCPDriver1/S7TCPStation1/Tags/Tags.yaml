@@ -1,0 +1,1428 @@
+Name: Tags
+Type: FolderType
+Children:
+- Name: PLC_1_510716
+  Type: TagStructure
+  DataType: Structure
+  Value: 
+   {
+    "Type": 22,
+    "Body": {
+     "TypeId": {
+      "IdType": 0,
+      "Id": 0,
+      "Namespace": -1
+     },
+     "Body":    {}
+    }
+   }
+  Children:
+  - Name: G120_20G1
+    Type: TagStructure
+    DataType: Structure
+    Value: 
+     {
+      "Type": 22,
+      "Body": {
+       "TypeId": {
+        "IdType": 0,
+        "Id": 0,
+        "Namespace": -1
+       },
+       "Body":    {}
+      }
+     }
+    Children:
+    - Name: G120_A20G1
+      Type: TagStructure
+      DataType: Structure
+      Value: 
+       {
+        "Type": 22,
+        "Body": {
+         "TypeId": {
+          "IdType": 0,
+          "Id": 0,
+          "Namespace": -1
+         },
+         "Body":    {}
+        }
+       }
+      Children:
+      - Name: status
+        Type: TagStructure
+        DataType: Structure
+        Value: 
+         {
+          "Type": 22,
+          "Body": {
+           "TypeId": {
+            "IdType": 0,
+            "Id": 0,
+            "Namespace": -1
+           },
+           "Body":    {}
+          }
+         }
+        Children:
+        - Name: status_word
+          Type: S7TCPTag
+          DataType: UInt16
+          Children:
+          - Name: MemoryArea
+            Type: BaseDataVariableType
+            DataType: MemoryArea
+          - Name: BlockNumber
+            Type: BaseDataVariableType
+            DataType: UInt32
+            Value: 53
+          - Name: Position
+            Type: BaseDataVariableType
+            DataType: UInt32
+          - Name: Bit
+            Type: BaseDataVariableType
+            DataType: UInt32
+        - Name: actual_speed
+          Type: S7TCPTag
+          DataType: Float
+          Children:
+          - Name: MemoryArea
+            Type: BaseDataVariableType
+            DataType: MemoryArea
+          - Name: BlockNumber
+            Type: BaseDataVariableType
+            DataType: UInt32
+            Value: 53
+          - Name: Position
+            Type: BaseDataVariableType
+            DataType: UInt32
+            Value: 2
+          - Name: Bit
+            Type: BaseDataVariableType
+            DataType: UInt32
+        - Name: actual_current
+          Type: S7TCPTag
+          DataType: Float
+          Children:
+          - Name: MemoryArea
+            Type: BaseDataVariableType
+            DataType: MemoryArea
+          - Name: BlockNumber
+            Type: BaseDataVariableType
+            DataType: UInt32
+            Value: 53
+          - Name: Position
+            Type: BaseDataVariableType
+            DataType: UInt32
+            Value: 6
+          - Name: Bit
+            Type: BaseDataVariableType
+            DataType: UInt32
+        - Name: actual_torque
+          Type: S7TCPTag
+          DataType: Float
+          Children:
+          - Name: MemoryArea
+            Type: BaseDataVariableType
+            DataType: MemoryArea
+          - Name: BlockNumber
+            Type: BaseDataVariableType
+            DataType: UInt32
+            Value: 53
+          - Name: Position
+            Type: BaseDataVariableType
+            DataType: UInt32
+            Value: 10
+          - Name: Bit
+            Type: BaseDataVariableType
+            DataType: UInt32
+        - Name: actual_alarm
+          Type: S7TCPTag
+          DataType: UInt16
+          Children:
+          - Name: MemoryArea
+            Type: BaseDataVariableType
+            DataType: MemoryArea
+          - Name: BlockNumber
+            Type: BaseDataVariableType
+            DataType: UInt32
+            Value: 53
+          - Name: Position
+            Type: BaseDataVariableType
+            DataType: UInt32
+            Value: 14
+          - Name: Bit
+            Type: BaseDataVariableType
+            DataType: UInt32
+        - Name: actual_fault
+          Type: S7TCPTag
+          DataType: UInt16
+          Children:
+          - Name: MemoryArea
+            Type: BaseDataVariableType
+            DataType: MemoryArea
+          - Name: BlockNumber
+            Type: BaseDataVariableType
+            DataType: UInt32
+            Value: 53
+          - Name: Position
+            Type: BaseDataVariableType
+            DataType: UInt32
+            Value: 16
+          - Name: Bit
+            Type: BaseDataVariableType
+            DataType: UInt32
+        - Name: actual_dImput
+          Type: S7TCPTag
+          DataType: UInt16
+          Children:
+          - Name: MemoryArea
+            Type: BaseDataVariableType
+            DataType: MemoryArea
+          - Name: BlockNumber
+            Type: BaseDataVariableType
+            DataType: UInt32
+            Value: 53
+          - Name: Position
+            Type: BaseDataVariableType
+            DataType: UInt32
+            Value: 18
+          - Name: Bit
+            Type: BaseDataVariableType
+            DataType: UInt32
+      - Name: comand
+        Type: TagStructure
+        DataType: Structure
+        Value: 
+         {
+          "Type": 22,
+          "Body": {
+           "TypeId": {
+            "IdType": 0,
+            "Id": 0,
+            "Namespace": -1
+           },
+           "Body":    {}
+          }
+         }
+        Children:
+        - Name: control_word
+          Type: S7TCPTag
+          DataType: UInt16
+          Children:
+          - Name: MemoryArea
+            Type: BaseDataVariableType
+            DataType: MemoryArea
+          - Name: BlockNumber
+            Type: BaseDataVariableType
+            DataType: UInt32
+            Value: 53
+          - Name: Position
+            Type: BaseDataVariableType
+            DataType: UInt32
+            Value: 20
+          - Name: Bit
+            Type: BaseDataVariableType
+            DataType: UInt32
+        - Name: setpoint
+          Type: S7TCPTag
+          DataType: Float
+          Children:
+          - Name: MemoryArea
+            Type: BaseDataVariableType
+            DataType: MemoryArea
+          - Name: BlockNumber
+            Type: BaseDataVariableType
+            DataType: UInt32
+            Value: 53
+          - Name: Position
+            Type: BaseDataVariableType
+            DataType: UInt32
+            Value: 22
+          - Name: Bit
+            Type: BaseDataVariableType
+            DataType: UInt32
+        - Name: cont
+          Type: TagStructure
+          DataType: Structure
+          Value: 
+           {
+            "Type": 22,
+            "Body": {
+             "TypeId": {
+              "IdType": 0,
+              "Id": 0,
+              "Namespace": -1
+             },
+             "Body":    {}
+            }
+           }
+          Children:
+          - Name: OFF1
+            Type: S7TCPTag
+            DataType: Boolean
+            Children:
+            - Name: MemoryArea
+              Type: BaseDataVariableType
+              DataType: MemoryArea
+            - Name: BlockNumber
+              Type: BaseDataVariableType
+              DataType: UInt32
+              Value: 53
+            - Name: Position
+              Type: BaseDataVariableType
+              DataType: UInt32
+              Value: 26
+            - Name: Bit
+              Type: BaseDataVariableType
+              DataType: UInt32
+          - Name: OFF2
+            Type: S7TCPTag
+            DataType: Boolean
+            Children:
+            - Name: MemoryArea
+              Type: BaseDataVariableType
+              DataType: MemoryArea
+            - Name: BlockNumber
+              Type: BaseDataVariableType
+              DataType: UInt32
+              Value: 53
+            - Name: Position
+              Type: BaseDataVariableType
+              DataType: UInt32
+              Value: 26
+            - Name: Bit
+              Type: BaseDataVariableType
+              DataType: UInt32
+              Value: 1
+          - Name: OFF3
+            Type: S7TCPTag
+            DataType: Boolean
+            Children:
+            - Name: MemoryArea
+              Type: BaseDataVariableType
+              DataType: MemoryArea
+            - Name: BlockNumber
+              Type: BaseDataVariableType
+              DataType: UInt32
+              Value: 53
+            - Name: Position
+              Type: BaseDataVariableType
+              DataType: UInt32
+              Value: 26
+            - Name: Bit
+              Type: BaseDataVariableType
+              DataType: UInt32
+              Value: 2
+          - Name: AbilitDrive
+            Type: S7TCPTag
+            DataType: Boolean
+            Children:
+            - Name: MemoryArea
+              Type: BaseDataVariableType
+              DataType: MemoryArea
+            - Name: BlockNumber
+              Type: BaseDataVariableType
+              DataType: UInt32
+              Value: 53
+            - Name: Position
+              Type: BaseDataVariableType
+              DataType: UInt32
+              Value: 26
+            - Name: Bit
+              Type: BaseDataVariableType
+              DataType: UInt32
+              Value: 3
+          - Name: AbilitRampa
+            Type: S7TCPTag
+            DataType: Boolean
+            Children:
+            - Name: MemoryArea
+              Type: BaseDataVariableType
+              DataType: MemoryArea
+            - Name: BlockNumber
+              Type: BaseDataVariableType
+              DataType: UInt32
+              Value: 53
+            - Name: Position
+              Type: BaseDataVariableType
+              DataType: UInt32
+              Value: 26
+            - Name: Bit
+              Type: BaseDataVariableType
+              DataType: UInt32
+              Value: 4
+          - Name: Cont Rif Di Rampa(1)
+            Type: S7TCPTag
+            DataType: Boolean
+            Children:
+            - Name: MemoryArea
+              Type: BaseDataVariableType
+              DataType: MemoryArea
+            - Name: BlockNumber
+              Type: BaseDataVariableType
+              DataType: UInt32
+              Value: 53
+            - Name: Position
+              Type: BaseDataVariableType
+              DataType: UInt32
+              Value: 26
+            - Name: Bit
+              Type: BaseDataVariableType
+              DataType: UInt32
+              Value: 5
+          - Name: AbilitRif
+            Type: S7TCPTag
+            DataType: Boolean
+            Children:
+            - Name: MemoryArea
+              Type: BaseDataVariableType
+              DataType: MemoryArea
+            - Name: BlockNumber
+              Type: BaseDataVariableType
+              DataType: UInt32
+              Value: 53
+            - Name: Position
+              Type: BaseDataVariableType
+              DataType: UInt32
+              Value: 26
+            - Name: Bit
+              Type: BaseDataVariableType
+              DataType: UInt32
+              Value: 6
+          - Name: ACK
+            Type: S7TCPTag
+            DataType: Boolean
+            Children:
+            - Name: MemoryArea
+              Type: BaseDataVariableType
+              DataType: MemoryArea
+            - Name: BlockNumber
+              Type: BaseDataVariableType
+              DataType: UInt32
+              Value: 53
+            - Name: Position
+              Type: BaseDataVariableType
+              DataType: UInt32
+              Value: 26
+            - Name: Bit
+              Type: BaseDataVariableType
+              DataType: UInt32
+              Value: 7
+          - Name: Tag_2
+            Type: S7TCPTag
+            DataType: Boolean
+            Children:
+            - Name: MemoryArea
+              Type: BaseDataVariableType
+              DataType: MemoryArea
+            - Name: BlockNumber
+              Type: BaseDataVariableType
+              DataType: UInt32
+              Value: 53
+            - Name: Position
+              Type: BaseDataVariableType
+              DataType: UInt32
+              Value: 27
+            - Name: Bit
+              Type: BaseDataVariableType
+              DataType: UInt32
+          - Name: Tag_3
+            Type: S7TCPTag
+            DataType: Boolean
+            Children:
+            - Name: MemoryArea
+              Type: BaseDataVariableType
+              DataType: MemoryArea
+            - Name: BlockNumber
+              Type: BaseDataVariableType
+              DataType: UInt32
+              Value: 53
+            - Name: Position
+              Type: BaseDataVariableType
+              DataType: UInt32
+              Value: 27
+            - Name: Bit
+              Type: BaseDataVariableType
+              DataType: UInt32
+              Value: 1
+          - Name: ControlloPLC
+            Type: S7TCPTag
+            DataType: Boolean
+            Children:
+            - Name: MemoryArea
+              Type: BaseDataVariableType
+              DataType: MemoryArea
+            - Name: BlockNumber
+              Type: BaseDataVariableType
+              DataType: UInt32
+              Value: 53
+            - Name: Position
+              Type: BaseDataVariableType
+              DataType: UInt32
+              Value: 27
+            - Name: Bit
+              Type: BaseDataVariableType
+              DataType: UInt32
+              Value: 2
+          - Name: Inversione Riferimento (setpoint)
+            Type: S7TCPTag
+            DataType: Boolean
+            Children:
+            - Name: MemoryArea
+              Type: BaseDataVariableType
+              DataType: MemoryArea
+            - Name: BlockNumber
+              Type: BaseDataVariableType
+              DataType: UInt32
+              Value: 53
+            - Name: Position
+              Type: BaseDataVariableType
+              DataType: UInt32
+              Value: 27
+            - Name: Bit
+              Type: BaseDataVariableType
+              DataType: UInt32
+              Value: 3
+          - Name: lib2
+            Type: S7TCPTag
+            DataType: Boolean
+            Children:
+            - Name: MemoryArea
+              Type: BaseDataVariableType
+              DataType: MemoryArea
+            - Name: BlockNumber
+              Type: BaseDataVariableType
+              DataType: UInt32
+              Value: 53
+            - Name: Position
+              Type: BaseDataVariableType
+              DataType: UInt32
+              Value: 27
+            - Name: Bit
+              Type: BaseDataVariableType
+              DataType: UInt32
+              Value: 4
+          - Name: lib3
+            Type: S7TCPTag
+            DataType: Boolean
+            Children:
+            - Name: MemoryArea
+              Type: BaseDataVariableType
+              DataType: MemoryArea
+            - Name: BlockNumber
+              Type: BaseDataVariableType
+              DataType: UInt32
+              Value: 53
+            - Name: Position
+              Type: BaseDataVariableType
+              DataType: UInt32
+              Value: 27
+            - Name: Bit
+              Type: BaseDataVariableType
+              DataType: UInt32
+              Value: 5
+          - Name: lib4
+            Type: S7TCPTag
+            DataType: Boolean
+            Children:
+            - Name: MemoryArea
+              Type: BaseDataVariableType
+              DataType: MemoryArea
+            - Name: BlockNumber
+              Type: BaseDataVariableType
+              DataType: UInt32
+              Value: 53
+            - Name: Position
+              Type: BaseDataVariableType
+              DataType: UInt32
+              Value: 27
+            - Name: Bit
+              Type: BaseDataVariableType
+              DataType: UInt32
+              Value: 6
+          - Name: lib5
+            Type: S7TCPTag
+            DataType: Boolean
+            Children:
+            - Name: MemoryArea
+              Type: BaseDataVariableType
+              DataType: MemoryArea
+            - Name: BlockNumber
+              Type: BaseDataVariableType
+              DataType: UInt32
+              Value: 53
+            - Name: Position
+              Type: BaseDataVariableType
+              DataType: UInt32
+              Value: 27
+            - Name: Bit
+              Type: BaseDataVariableType
+              DataType: UInt32
+              Value: 7
+      - Name: Vel_richiesta_mm_Min
+        Type: S7TCPTag
+        DataType: Float
+        Children:
+        - Name: MemoryArea
+          Type: BaseDataVariableType
+          DataType: MemoryArea
+        - Name: BlockNumber
+          Type: BaseDataVariableType
+          DataType: UInt32
+          Value: 53
+        - Name: Position
+          Type: BaseDataVariableType
+          DataType: UInt32
+          Value: 28
+        - Name: Bit
+          Type: BaseDataVariableType
+          DataType: UInt32
+      - Name: Rif_Motore_Giri_Min
+        Type: S7TCPTag
+        DataType: Float
+        Children:
+        - Name: MemoryArea
+          Type: BaseDataVariableType
+          DataType: MemoryArea
+        - Name: BlockNumber
+          Type: BaseDataVariableType
+          DataType: UInt32
+          Value: 53
+        - Name: Position
+          Type: BaseDataVariableType
+          DataType: UInt32
+          Value: 32
+        - Name: Bit
+          Type: BaseDataVariableType
+          DataType: UInt32
+      - Name: Write_SviluppoPuleggia
+        Type: S7TCPTag
+        DataType: Float
+        Children:
+        - Name: MemoryArea
+          Type: BaseDataVariableType
+          DataType: MemoryArea
+        - Name: BlockNumber
+          Type: BaseDataVariableType
+          DataType: UInt32
+          Value: 53
+        - Name: Position
+          Type: BaseDataVariableType
+          DataType: UInt32
+          Value: 36
+        - Name: Bit
+          Type: BaseDataVariableType
+          DataType: UInt32
+      - Name: Write_RapportoMot/Puleggia
+        Type: S7TCPTag
+        DataType: Float
+        Children:
+        - Name: MemoryArea
+          Type: BaseDataVariableType
+          DataType: MemoryArea
+        - Name: BlockNumber
+          Type: BaseDataVariableType
+          DataType: UInt32
+          Value: 53
+        - Name: Position
+          Type: BaseDataVariableType
+          DataType: UInt32
+          Value: 40
+        - Name: Bit
+          Type: BaseDataVariableType
+          DataType: UInt32
+      - Name: Write_GiriMotore
+        Type: S7TCPTag
+        DataType: Float
+        Children:
+        - Name: MemoryArea
+          Type: BaseDataVariableType
+          DataType: MemoryArea
+        - Name: BlockNumber
+          Type: BaseDataVariableType
+          DataType: UInt32
+          Value: 53
+        - Name: Position
+          Type: BaseDataVariableType
+          DataType: UInt32
+          Value: 44
+        - Name: Bit
+          Type: BaseDataVariableType
+          DataType: UInt32
+      - Name: Write_CorrenteMotore
+        Type: S7TCPTag
+        DataType: Float
+        Children:
+        - Name: MemoryArea
+          Type: BaseDataVariableType
+          DataType: MemoryArea
+        - Name: BlockNumber
+          Type: BaseDataVariableType
+          DataType: UInt32
+          Value: 53
+        - Name: Position
+          Type: BaseDataVariableType
+          DataType: UInt32
+          Value: 48
+        - Name: Bit
+          Type: BaseDataVariableType
+          DataType: UInt32
+      - Name: Write_VelMan
+        Type: S7TCPTag
+        DataType: Float
+        Children:
+        - Name: MemoryArea
+          Type: BaseDataVariableType
+          DataType: MemoryArea
+        - Name: BlockNumber
+          Type: BaseDataVariableType
+          DataType: UInt32
+          Value: 53
+        - Name: Position
+          Type: BaseDataVariableType
+          DataType: UInt32
+          Value: 52
+        - Name: Bit
+          Type: BaseDataVariableType
+          DataType: UInt32
+      - Name: DirezAttNegativa
+        Type: S7TCPTag
+        DataType: Boolean
+        Children:
+        - Name: MemoryArea
+          Type: BaseDataVariableType
+          DataType: MemoryArea
+        - Name: BlockNumber
+          Type: BaseDataVariableType
+          DataType: UInt32
+          Value: 53
+        - Name: Position
+          Type: BaseDataVariableType
+          DataType: UInt32
+          Value: 56
+        - Name: Bit
+          Type: BaseDataVariableType
+          DataType: UInt32
+      - Name: 'Vel_m-min_nominali'
+        Type: S7TCPTag
+        DataType: Float
+        Children:
+        - Name: MemoryArea
+          Type: BaseDataVariableType
+          DataType: MemoryArea
+        - Name: BlockNumber
+          Type: BaseDataVariableType
+          DataType: UInt32
+          Value: 53
+        - Name: Position
+          Type: BaseDataVariableType
+          DataType: UInt32
+          Value: 58
+        - Name: Bit
+          Type: BaseDataVariableType
+          DataType: UInt32
+      - Name: Jog+
+        Type: S7TCPTag
+        DataType: Boolean
+        Children:
+        - Name: MemoryArea
+          Type: BaseDataVariableType
+          DataType: MemoryArea
+        - Name: BlockNumber
+          Type: BaseDataVariableType
+          DataType: UInt32
+          Value: 53
+        - Name: Position
+          Type: BaseDataVariableType
+          DataType: UInt32
+          Value: 62
+        - Name: Bit
+          Type: BaseDataVariableType
+          DataType: UInt32
+      - Name: 'jog-'
+        Type: S7TCPTag
+        DataType: Boolean
+        Children:
+        - Name: MemoryArea
+          Type: BaseDataVariableType
+          DataType: MemoryArea
+        - Name: BlockNumber
+          Type: BaseDataVariableType
+          DataType: UInt32
+          Value: 53
+        - Name: Position
+          Type: BaseDataVariableType
+          DataType: UInt32
+          Value: 62
+        - Name: Bit
+          Type: BaseDataVariableType
+          DataType: UInt32
+          Value: 1
+      - Name: DirezAttNegativ
+        Type: S7TCPTag
+        DataType: Boolean
+        Children:
+        - Name: MemoryArea
+          Type: BaseDataVariableType
+          DataType: MemoryArea
+        - Name: BlockNumber
+          Type: BaseDataVariableType
+          DataType: UInt32
+          Value: 53
+        - Name: Position
+          Type: BaseDataVariableType
+          DataType: UInt32
+          Value: 62
+        - Name: Bit
+          Type: BaseDataVariableType
+          DataType: UInt32
+          Value: 2
+      - Name: Start
+        Type: S7TCPTag
+        DataType: Boolean
+        Children:
+        - Name: MemoryArea
+          Type: BaseDataVariableType
+          DataType: MemoryArea
+        - Name: BlockNumber
+          Type: BaseDataVariableType
+          DataType: UInt32
+          Value: 53
+        - Name: Position
+          Type: BaseDataVariableType
+          DataType: UInt32
+          Value: 62
+        - Name: Bit
+          Type: BaseDataVariableType
+          DataType: UInt32
+          Value: 3
+      - Name: stato
+        Type: TagStructure
+        DataType: Structure
+        Value: 
+         {
+          "Type": 22,
+          "Body": {
+           "TypeId": {
+            "IdType": 0,
+            "Id": 0,
+            "Namespace": -1
+           },
+           "Body":    {}
+          }
+         }
+        Children:
+        - Name: 0_Pronto inserzione
+          Type: S7TCPTag
+          DataType: Boolean
+          Children:
+          - Name: MemoryArea
+            Type: BaseDataVariableType
+            DataType: MemoryArea
+          - Name: BlockNumber
+            Type: BaseDataVariableType
+            DataType: UInt32
+            Value: 53
+          - Name: Position
+            Type: BaseDataVariableType
+            DataType: UInt32
+            Value: 64
+          - Name: Bit
+            Type: BaseDataVariableType
+            DataType: UInt32
+        - Name: 1_Pronto funzion_
+          Type: S7TCPTag
+          DataType: Boolean
+          Children:
+          - Name: MemoryArea
+            Type: BaseDataVariableType
+            DataType: MemoryArea
+          - Name: BlockNumber
+            Type: BaseDataVariableType
+            DataType: UInt32
+            Value: 53
+          - Name: Position
+            Type: BaseDataVariableType
+            DataType: UInt32
+            Value: 64
+          - Name: Bit
+            Type: BaseDataVariableType
+            DataType: UInt32
+            Value: 1
+        - Name: 2_Funzionamento abilitato
+          Type: S7TCPTag
+          DataType: Boolean
+          Children:
+          - Name: MemoryArea
+            Type: BaseDataVariableType
+            DataType: MemoryArea
+          - Name: BlockNumber
+            Type: BaseDataVariableType
+            DataType: UInt32
+            Value: 53
+          - Name: Position
+            Type: BaseDataVariableType
+            DataType: UInt32
+            Value: 64
+          - Name: Bit
+            Type: BaseDataVariableType
+            DataType: UInt32
+            Value: 2
+        - Name: 3_Anomalia attiva
+          Type: S7TCPTag
+          DataType: Boolean
+          Children:
+          - Name: MemoryArea
+            Type: BaseDataVariableType
+            DataType: MemoryArea
+          - Name: BlockNumber
+            Type: BaseDataVariableType
+            DataType: UInt32
+            Value: 53
+          - Name: Position
+            Type: BaseDataVariableType
+            DataType: UInt32
+            Value: 64
+          - Name: Bit
+            Type: BaseDataVariableType
+            DataType: UInt32
+            Value: 3
+        - Name: 4_Arresto per inerzia attivo (OFF2)
+          Type: S7TCPTag
+          DataType: Boolean
+          Children:
+          - Name: MemoryArea
+            Type: BaseDataVariableType
+            DataType: MemoryArea
+          - Name: BlockNumber
+            Type: BaseDataVariableType
+            DataType: UInt32
+            Value: 53
+          - Name: Position
+            Type: BaseDataVariableType
+            DataType: UInt32
+            Value: 64
+          - Name: Bit
+            Type: BaseDataVariableType
+            DataType: UInt32
+            Value: 4
+        - Name: 5_Arresto rapido attivo (OFF3)
+          Type: S7TCPTag
+          DataType: Boolean
+          Children:
+          - Name: MemoryArea
+            Type: BaseDataVariableType
+            DataType: MemoryArea
+          - Name: BlockNumber
+            Type: BaseDataVariableType
+            DataType: UInt32
+            Value: 53
+          - Name: Position
+            Type: BaseDataVariableType
+            DataType: UInt32
+            Value: 64
+          - Name: Bit
+            Type: BaseDataVariableType
+            DataType: UInt32
+            Value: 5
+        - Name: 6_Blocco inserzione attivo
+          Type: S7TCPTag
+          DataType: Boolean
+          Children:
+          - Name: MemoryArea
+            Type: BaseDataVariableType
+            DataType: MemoryArea
+          - Name: BlockNumber
+            Type: BaseDataVariableType
+            DataType: UInt32
+            Value: 53
+          - Name: Position
+            Type: BaseDataVariableType
+            DataType: UInt32
+            Value: 64
+          - Name: Bit
+            Type: BaseDataVariableType
+            DataType: UInt32
+            Value: 6
+        - Name: 7_Avviso attivo
+          Type: S7TCPTag
+          DataType: Boolean
+          Children:
+          - Name: MemoryArea
+            Type: BaseDataVariableType
+            DataType: MemoryArea
+          - Name: BlockNumber
+            Type: BaseDataVariableType
+            DataType: UInt32
+            Value: 53
+          - Name: Position
+            Type: BaseDataVariableType
+            DataType: UInt32
+            Value: 64
+          - Name: Bit
+            Type: BaseDataVariableType
+            DataType: UInt32
+            Value: 7
+        - Name: 8_Scostamento numero di giri di riferimento/numero di giri attuale
+          Type: S7TCPTag
+          DataType: Boolean
+          Children:
+          - Name: MemoryArea
+            Type: BaseDataVariableType
+            DataType: MemoryArea
+          - Name: BlockNumber
+            Type: BaseDataVariableType
+            DataType: UInt32
+            Value: 53
+          - Name: Position
+            Type: BaseDataVariableType
+            DataType: UInt32
+            Value: 65
+          - Name: Bit
+            Type: BaseDataVariableType
+            DataType: UInt32
+        - Name: 9_Comando richiesto
+          Type: S7TCPTag
+          DataType: Boolean
+          Children:
+          - Name: MemoryArea
+            Type: BaseDataVariableType
+            DataType: MemoryArea
+          - Name: BlockNumber
+            Type: BaseDataVariableType
+            DataType: UInt32
+            Value: 53
+          - Name: Position
+            Type: BaseDataVariableType
+            DataType: UInt32
+            Value: 65
+          - Name: Bit
+            Type: BaseDataVariableType
+            DataType: UInt32
+            Value: 1
+        - Name: 10_Numero di giri massimo raggiunto
+          Type: S7TCPTag
+          DataType: Boolean
+          Children:
+          - Name: MemoryArea
+            Type: BaseDataVariableType
+            DataType: MemoryArea
+          - Name: BlockNumber
+            Type: BaseDataVariableType
+            DataType: UInt32
+            Value: 53
+          - Name: Position
+            Type: BaseDataVariableType
+            DataType: UInt32
+            Value: 65
+          - Name: Bit
+            Type: BaseDataVariableType
+            DataType: UInt32
+            Value: 2
+        - Name: '11_Limite I, M, P raggiunto'
+          Type: S7TCPTag
+          DataType: Boolean
+          Children:
+          - Name: MemoryArea
+            Type: BaseDataVariableType
+            DataType: MemoryArea
+          - Name: BlockNumber
+            Type: BaseDataVariableType
+            DataType: UInt32
+            Value: 53
+          - Name: Position
+            Type: BaseDataVariableType
+            DataType: UInt32
+            Value: 65
+          - Name: Bit
+            Type: BaseDataVariableType
+            DataType: UInt32
+            Value: 3
+        - Name: 12_Freno di stazionamento motore aperto
+          Type: S7TCPTag
+          DataType: Boolean
+          Children:
+          - Name: MemoryArea
+            Type: BaseDataVariableType
+            DataType: MemoryArea
+          - Name: BlockNumber
+            Type: BaseDataVariableType
+            DataType: UInt32
+            Value: 53
+          - Name: Position
+            Type: BaseDataVariableType
+            DataType: UInt32
+            Value: 65
+          - Name: Bit
+            Type: BaseDataVariableType
+            DataType: UInt32
+            Value: 4
+        - Name: 13_Avviso sovratemperatura motore
+          Type: S7TCPTag
+          DataType: Boolean
+          Children:
+          - Name: MemoryArea
+            Type: BaseDataVariableType
+            DataType: MemoryArea
+          - Name: BlockNumber
+            Type: BaseDataVariableType
+            DataType: UInt32
+            Value: 53
+          - Name: Position
+            Type: BaseDataVariableType
+            DataType: UInt32
+            Value: 65
+          - Name: Bit
+            Type: BaseDataVariableType
+            DataType: UInt32
+            Value: 5
+        - Name: 14_Il motore gira in avanti
+          Type: S7TCPTag
+          DataType: Boolean
+          Children:
+          - Name: MemoryArea
+            Type: BaseDataVariableType
+            DataType: MemoryArea
+          - Name: BlockNumber
+            Type: BaseDataVariableType
+            DataType: UInt32
+            Value: 53
+          - Name: Position
+            Type: BaseDataVariableType
+            DataType: UInt32
+            Value: 65
+          - Name: Bit
+            Type: BaseDataVariableType
+            DataType: UInt32
+            Value: 6
+        - Name: 15_Avviso di sovraccarico del convertitore
+          Type: S7TCPTag
+          DataType: Boolean
+          Children:
+          - Name: MemoryArea
+            Type: BaseDataVariableType
+            DataType: MemoryArea
+          - Name: BlockNumber
+            Type: BaseDataVariableType
+            DataType: UInt32
+            Value: 53
+          - Name: Position
+            Type: BaseDataVariableType
+            DataType: UInt32
+            Value: 65
+          - Name: Bit
+            Type: BaseDataVariableType
+            DataType: UInt32
+            Value: 7
+        - Name: DigImput
+          Type: TagStructure
+          DataType: Structure
+          Value: 
+           {
+            "Type": 22,
+            "Body": {
+             "TypeId": {
+              "IdType": 0,
+              "Id": 0,
+              "Namespace": -1
+             },
+             "Body":    {}
+            }
+           }
+          Children:
+          - Name: Di0
+            Type: S7TCPTag
+            DataType: Boolean
+            Children:
+            - Name: MemoryArea
+              Type: BaseDataVariableType
+              DataType: MemoryArea
+            - Name: BlockNumber
+              Type: BaseDataVariableType
+              DataType: UInt32
+              Value: 53
+            - Name: Position
+              Type: BaseDataVariableType
+              DataType: UInt32
+              Value: 66
+            - Name: Bit
+              Type: BaseDataVariableType
+              DataType: UInt32
+          - Name: Di1
+            Type: S7TCPTag
+            DataType: Boolean
+            Children:
+            - Name: MemoryArea
+              Type: BaseDataVariableType
+              DataType: MemoryArea
+            - Name: BlockNumber
+              Type: BaseDataVariableType
+              DataType: UInt32
+              Value: 53
+            - Name: Position
+              Type: BaseDataVariableType
+              DataType: UInt32
+              Value: 66
+            - Name: Bit
+              Type: BaseDataVariableType
+              DataType: UInt32
+              Value: 1
+          - Name: Di2
+            Type: S7TCPTag
+            DataType: Boolean
+            Children:
+            - Name: MemoryArea
+              Type: BaseDataVariableType
+              DataType: MemoryArea
+            - Name: BlockNumber
+              Type: BaseDataVariableType
+              DataType: UInt32
+              Value: 53
+            - Name: Position
+              Type: BaseDataVariableType
+              DataType: UInt32
+              Value: 66
+            - Name: Bit
+              Type: BaseDataVariableType
+              DataType: UInt32
+              Value: 2
+          - Name: Di3
+            Type: S7TCPTag
+            DataType: Boolean
+            Children:
+            - Name: MemoryArea
+              Type: BaseDataVariableType
+              DataType: MemoryArea
+            - Name: BlockNumber
+              Type: BaseDataVariableType
+              DataType: UInt32
+              Value: 53
+            - Name: Position
+              Type: BaseDataVariableType
+              DataType: UInt32
+              Value: 66
+            - Name: Bit
+              Type: BaseDataVariableType
+              DataType: UInt32
+              Value: 3
+          - Name: Di4
+            Type: S7TCPTag
+            DataType: Boolean
+            Children:
+            - Name: MemoryArea
+              Type: BaseDataVariableType
+              DataType: MemoryArea
+            - Name: BlockNumber
+              Type: BaseDataVariableType
+              DataType: UInt32
+              Value: 53
+            - Name: Position
+              Type: BaseDataVariableType
+              DataType: UInt32
+              Value: 66
+            - Name: Bit
+              Type: BaseDataVariableType
+              DataType: UInt32
+              Value: 4
+          - Name: Di5
+            Type: S7TCPTag
+            DataType: Boolean
+            Children:
+            - Name: MemoryArea
+              Type: BaseDataVariableType
+              DataType: MemoryArea
+            - Name: BlockNumber
+              Type: BaseDataVariableType
+              DataType: UInt32
+              Value: 53
+            - Name: Position
+              Type: BaseDataVariableType
+              DataType: UInt32
+              Value: 66
+            - Name: Bit
+              Type: BaseDataVariableType
+              DataType: UInt32
+              Value: 5
+      - Name: AbilitaInverter
+        Type: S7TCPTag
+        DataType: Boolean
+        Children:
+        - Name: MemoryArea
+          Type: BaseDataVariableType
+          DataType: MemoryArea
+        - Name: BlockNumber
+          Type: BaseDataVariableType
+          DataType: UInt32
+          Value: 53
+        - Name: Position
+          Type: BaseDataVariableType
+          DataType: UInt32
+          Value: 68
+        - Name: Bit
+          Type: BaseDataVariableType
+          DataType: UInt32
+      - Name: Inverter_ARegime Giri
+        Type: S7TCPTag
+        DataType: Boolean
+        Children:
+        - Name: MemoryArea
+          Type: BaseDataVariableType
+          DataType: MemoryArea
+        - Name: BlockNumber
+          Type: BaseDataVariableType
+          DataType: UInt32
+          Value: 53
+        - Name: Position
+          Type: BaseDataVariableType
+          DataType: UInt32
+          Value: 68
+        - Name: Bit
+          Type: BaseDataVariableType
+          DataType: UInt32
+          Value: 1
+      - Name: All_Max_Corrente
+        Type: S7TCPTag
+        DataType: Boolean
+        Children:
+        - Name: MemoryArea
+          Type: BaseDataVariableType
+          DataType: MemoryArea
+        - Name: BlockNumber
+          Type: BaseDataVariableType
+          DataType: UInt32
+          Value: 53
+        - Name: Position
+          Type: BaseDataVariableType
+          DataType: UInt32
+          Value: 68
+        - Name: Bit
+          Type: BaseDataVariableType
+          DataType: UInt32
+          Value: 2
+      - Name: Max_Corrente
+        Type: S7TCPTag
+        DataType: Float
+        Children:
+        - Name: MemoryArea
+          Type: BaseDataVariableType
+          DataType: MemoryArea
+        - Name: BlockNumber
+          Type: BaseDataVariableType
+          DataType: UInt32
+          Value: 53
+        - Name: Position
+          Type: BaseDataVariableType
+          DataType: UInt32
+          Value: 70
+        - Name: Bit
+          Type: BaseDataVariableType
+          DataType: UInt32
+      - Name: 'VelMax-mMin'
+        Type: S7TCPTag
+        DataType: Float
+        Children:
+        - Name: MemoryArea
+          Type: BaseDataVariableType
+          DataType: MemoryArea
+        - Name: BlockNumber
+          Type: BaseDataVariableType
+          DataType: UInt32
+          Value: 53
+        - Name: Position
+          Type: BaseDataVariableType
+          DataType: UInt32
+          Value: 74
+        - Name: Bit
+          Type: BaseDataVariableType
+          DataType: UInt32
+      - Name: 'VelMin-mMin'
+        Type: S7TCPTag
+        DataType: Float
+        Children:
+        - Name: MemoryArea
+          Type: BaseDataVariableType
+          DataType: MemoryArea
+        - Name: BlockNumber
+          Type: BaseDataVariableType
+          DataType: UInt32
+          Value: 53
+        - Name: Position
+          Type: BaseDataVariableType
+          DataType: UInt32
+          Value: 78
+        - Name: Bit
+          Type: BaseDataVariableType
+          DataType: UInt32
+      - Name: HerzMax
+        Type: S7TCPTag
+        DataType: Float
+        Children:
+        - Name: MemoryArea
+          Type: BaseDataVariableType
+          DataType: MemoryArea
+        - Name: BlockNumber
+          Type: BaseDataVariableType
+          DataType: UInt32
+          Value: 53
+        - Name: Position
+          Type: BaseDataVariableType
+          DataType: UInt32
+          Value: 82
+        - Name: Bit
+          Type: BaseDataVariableType
+          DataType: UInt32
+      - Name: HerzMin
+        Type: S7TCPTag
+        DataType: Float
+        Children:
+        - Name: MemoryArea
+          Type: BaseDataVariableType
+          DataType: MemoryArea
+        - Name: BlockNumber
+          Type: BaseDataVariableType
+          DataType: UInt32
+          Value: 53
+        - Name: Position
+          Type: BaseDataVariableType
+          DataType: UInt32
+          Value: 86
+        - Name: Bit
+          Type: BaseDataVariableType
+          DataType: UInt32
+      - Name: 'Vel-Auto-Mmin'
+        Type: S7TCPTag
+        DataType: Float
+        Children:
+        - Name: MemoryArea
+          Type: BaseDataVariableType
+          DataType: MemoryArea
+        - Name: BlockNumber
+          Type: BaseDataVariableType
+          DataType: UInt32
+          Value: 53
+        - Name: Position
+          Type: BaseDataVariableType
+          DataType: UInt32
+          Value: 90
+        - Name: Bit
+          Type: BaseDataVariableType
+          DataType: UInt32
+      - Name: Percentuale
+        Type: S7TCPTag
+        DataType: Float
+        Children:
+        - Name: MemoryArea
+          Type: BaseDataVariableType
+          DataType: MemoryArea
+        - Name: BlockNumber
+          Type: BaseDataVariableType
+          DataType: UInt32
+          Value: 53
+        - Name: Position
+          Type: BaseDataVariableType
+          DataType: UInt32
+          Value: 94
+        - Name: Bit
+          Type: BaseDataVariableType
+          DataType: UInt32
