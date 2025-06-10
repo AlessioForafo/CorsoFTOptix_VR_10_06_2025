@@ -90,15 +90,15 @@ Project:
    Module: FTOptix.S7TCP.Net
    Version: 1.0
  Statistics:
-  TotalNodeCount: 2020
-  Objects: 213
-  ObjectTypes: 14
-  Variables: 1792
+  TotalNodeCount: 2359
+  Objects: 289
+  ObjectTypes: 16
+  Variables: 2053
   VariableTypes: 0
   DataTypes: 0
   Methods: 1
-  References: 20
+  References: 21
   ReferenceTypes: 0
-  Files: 33
+  Files: 36
  Nodes:
  - File: Nodes/CorsoFTOptix_VR_10_06_2025.yaml

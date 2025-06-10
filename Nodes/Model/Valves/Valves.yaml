@@ -1,0 +1,70 @@
+Name: Valves
+Id: g=1fb56f8c6e2ef7b6ea35a15001747516
+Type: FolderType
+Children:
+- Name: Valve1
+  Id: g=8499534b7ad81b8e9f0f396114e5d87c
+  Type: Valve
+  Children:
+  - Name: IsOn
+    Type: BaseDataVariableType
+    DataType: Boolean
+  - Name: InAlarm
+    Type: BaseDataVariableType
+    DataType: Boolean
+  - Name: Temp
+    Type: BaseDataVariableType
+    DataType: Float
+- Name: Valve2
+  Id: g=3a2228f405164f7c8828407bf78f6e9e
+  Type: Valve
+  Children:
+  - Name: IsOn
+    Type: BaseDataVariableType
+    DataType: Boolean
+  - Name: InAlarm
+    Type: BaseDataVariableType
+    DataType: Boolean
+  - Name: Temp
+    Type: BaseDataVariableType
+    DataType: Float
+- Name: Valve3
+  Id: g=5d3dee773bc66a447c52aa7d20f110e5
+  Type: Valve
+  Children:
+  - Name: IsOn
+    Type: BaseDataVariableType
+    DataType: Boolean
+  - Name: InAlarm
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+  - Name: Temp
+    Type: BaseDataVariableType
+    DataType: Float
+- Name: Valve4
+  Id: g=1f7ffbc1d133d9190143942127b079f7
+  Type: Valve
+  Children:
+  - Name: IsOn
+    Type: BaseDataVariableType
+    DataType: Boolean
+  - Name: InAlarm
+    Type: BaseDataVariableType
+    DataType: Boolean
+  - Name: Temp
+    Type: BaseDataVariableType
+    DataType: Float
+- Name: Valve5
+  Id: g=a084e2d5e7edb5bdb2f8c63c80130101
+  Type: Valve
+  Children:
+  - Name: IsOn
+    Type: BaseDataVariableType
+    DataType: Boolean
+  - Name: InAlarm
+    Type: BaseDataVariableType
+    DataType: Boolean
+  - Name: Temp
+    Type: BaseDataVariableType
+    DataType: Float

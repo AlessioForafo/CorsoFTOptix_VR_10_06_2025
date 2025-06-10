@@ -4,3 +4,5 @@ Children:
 - Name: Variable1
   Type: BaseDataVariableType
   DataType: Int32
+- File: Valves/Valves.yaml
+- File: Types/Types.yaml

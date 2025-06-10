@@ -1,0 +1,16 @@
+Name: Types
+Type: FolderType
+Children:
+- Name: Valve
+  Id: g=53c7a58384ff8e607dff33446a065360
+  Supertype: BaseObjectType
+  Children:
+  - Name: IsOn
+    Type: BaseDataVariableType
+    DataType: Boolean
+  - Name: InAlarm
+    Type: BaseDataVariableType
+    DataType: Boolean
+  - Name: Temp
+    Type: BaseDataVariableType
+    DataType: Float
