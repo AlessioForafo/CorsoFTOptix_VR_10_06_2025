@@ -89,15 +89,47 @@ Project:
    Uri: 'urn:FTOptix:S7TCP:Net'
    Module: FTOptix.S7TCP.Net
    Version: 1.0
+  23:
+   Uri: 'urn:FTOptix:Alarm'
+   Module: FTOptix.Alarm
+   Version: 6.0
+  24:
+   Uri: 'urn:FTOptix:Alarm:Net'
+   Module: FTOptix.Alarm.Net
+   Version: 1.2
+  25:
+   Uri: 'urn:FTOptix:EventLogger'
+   Module: FTOptix.EventLogger
+   Version: 2.0
+  26:
+   Uri: 'urn:FTOptix:EventLogger:Net'
+   Module: FTOptix.EventLogger.Net
+   Version: 1.0
+  27:
+   Uri: 'urn:FTOptix:Store'
+   Module: FTOptix.Store
+   Version: 1.0
+  28:
+   Uri: 'urn:FTOptix:Store:Net'
+   Module: FTOptix.Store.Net
+   Version: 1.0
+  29:
+   Uri: 'urn:FTOptix:SQLiteStore'
+   Module: FTOptix.SQLiteStore
+   Version: 1.0
+  30:
+   Uri: 'urn:FTOptix:SQLiteStore:Net'
+   Module: FTOptix.SQLiteStore.Net
+   Version: 1.0
  Statistics:
-  TotalNodeCount: 2499
-  Objects: 318
+  TotalNodeCount: 3145
+  Objects: 444
   ObjectTypes: 16
-  Variables: 2164
+  Variables: 2683
   VariableTypes: 0
   DataTypes: 0
-  Methods: 1
-  References: 21
+  Methods: 2
+  References: 73
   ReferenceTypes: 0
   Files: 37
  Nodes:

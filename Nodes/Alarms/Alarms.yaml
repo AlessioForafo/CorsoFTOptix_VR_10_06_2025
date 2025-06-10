@@ -1,3 +1,248 @@
 Name: Alarms
 Id: g=3293e7cd8de0bb06cc725e017a984470
 Type: AlarmsCategoryFolder
+Children:
+- Name: DigitalAlarm1
+  Id: g=b48e1d66bf3cd1165a7ca2af282e971b
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=6c3d5dce964975a6ad50d2a1da871a5b
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=d9a45becf80debddcb74a28b5d031e32
+    Type: BaseDataVariableType
+    DataType: Double
+    Children:
+    - Name: DynamicLink
+      Id: g=4f9af4fecf9449070c1e67f3b92140d0
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../Model/AlarmsTags/Variable1"
+      Children:
+      - Name: Mode
+        Id: g=eefe662eb75baf827bc4f6cc68a7e22e
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=c6e85f9048515fd21632a7e83118f7f5
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=23;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=23;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=23;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=23;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=23;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=23;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=23;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=23;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=23;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=23;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=23;i=154
+    Direction: Forward
+  - Name: Message
+    Id: g=10462b807c59865af720e6570facb6c5
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Alarm 1 on!"}
+  - Name: AutoAcknowledge
+    Id: g=73f8a0de5ff5457560624c4109b7855a
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+  - Name: AutoConfirm
+    Id: g=5b29dde7350f00447841265aeeddb673
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+- Name: DigitalAlarm2
+  Id: g=dd0c2e97cdbd29f5aa6adf347db538d8
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=b1c82699bf70d91882532e85d0ebfe13
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=6a47ee4c29e966efa3030d4026b3195d
+    Type: BaseDataVariableType
+    DataType: Double
+    Children:
+    - Name: DynamicLink
+      Id: g=7715589ac29fb6719c45606c3a54339d
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../Model/AlarmsTags/Variable2"
+      Children:
+      - Name: Mode
+        Id: g=96d411c4293988e8f75b128da9026ff1
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=2d2330448fa048e72ffba6d522b45569
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=23;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=23;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=23;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=23;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=23;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=23;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=23;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=23;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=23;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=23;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=23;i=154
+    Direction: Forward
+  - Name: Severity
+    Id: g=0a35d9c994eab7cbc0f8d11a1d543abc
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 2
+  - Name: Message
+    Id: g=f1b5c3278fafa279cdb6fc122d2def0f
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Alarm2 on!"}
+  - Name: AutoAcknowledge
+    Id: g=37ca03d1d1f866761728946794e8f077
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+  - Name: AutoConfirm
+    Id: g=63914589965b250d997b78e5c1f03d84
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+- Name: DigitalAlarm3
+  Id: g=5d784ef03ea864c7c3bd4000779acd70
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=030f3c7f66dc2868dce8ec93870ce035
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=0773018e5785417e24cb573bb07c790a
+    Type: BaseDataVariableType
+    DataType: Double
+    Children:
+    - Name: DynamicLink
+      Id: g=0e6a34d4d570cebc3ea200dfc6ab31c0
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../Model/AlarmsTags/Variable3"
+      Children:
+      - Name: Mode
+        Id: g=cdef63b1609410e7aecb20b5b0fd5cc7
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=76be3987954910874500b0e173bbabc0
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=23;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=23;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=23;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=23;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=23;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=23;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=23;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=23;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=23;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=23;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=23;i=154
+    Direction: Forward
+  - Name: Severity
+    Id: g=4a82b9ffae474d1a2e5e6302a717efba
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 3
+  - Name: Message
+    Id: g=63a375d8f467553553db37dc4ce6fc51
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Alarm3 on!"}
+  - Name: AutoAcknowledge
+    Id: g=072be74bd82bebc2fa4d1965c998550d
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+  - Name: AutoConfirm
+    Id: g=b9594a2ffa0f1f3e3676e52633924c20
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true

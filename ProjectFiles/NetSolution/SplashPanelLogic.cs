@@ -17,6 +17,8 @@ using FTOptix.TwinCAT;
 using FTOptix.CommunicationDriver;
 using FTOptix.CODESYS;
 using FTOptix.S7TCP;
+using FTOptix.SQLiteStore;
+using FTOptix.EventLogger;
 #endregion
 
 public class SplashPanelLogic : BaseNetLogic

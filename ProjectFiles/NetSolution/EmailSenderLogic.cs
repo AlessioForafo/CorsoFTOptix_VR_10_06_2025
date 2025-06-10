@@ -8,6 +8,8 @@ using System.Collections.Generic;
 using FTOptix.Alarm;
 using FTOptix.DataLogger;
 using FTOptix.Store;
+using FTOptix.SQLiteStore;
+using FTOptix.EventLogger;
 #endregion
 
 public class EmailSenderLogic : BaseNetLogic
